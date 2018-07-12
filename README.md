@@ -8,7 +8,7 @@
 * cmake  3.6.4
 * SoundTouch 2.0.0
 
-![screen shots](https://raw.githubusercontent.com/noiary/soundtouch/master/screenshots/soundtouch.jpeg)
+![screen shots](https://raw.githubusercontent.com/noiary/soundtouch/master/screenshots/soundtouch.png)
 
 ## 参考
 * SoundTouch http://www.surina.net/soundtouch/
