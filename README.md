@@ -8,7 +8,7 @@
 * cmake  3.6.4
 * SoundTouch 2.0.0
 
-## <a href="https://github.com/noiary/soundtouch/blob/master/apk/soundtouch-unsigned.apk?raw=true">下载apk</a>
+## <a href="https://github.com/noiary/soundtouch/blob/master/apk/soundtouch-demo.apk?raw=true">下载apk</a>
 
 ![screen shots](https://raw.githubusercontent.com/noiary/soundtouch/master/screenshots/soundtouch.png)
 
