@@ -1,3 +1,3 @@
-/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/sound-touch.dir
+/Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/sound-touch.dir

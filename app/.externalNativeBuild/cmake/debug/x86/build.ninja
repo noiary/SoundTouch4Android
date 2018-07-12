@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 && /Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86 && /Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 && /Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/maodq/Project/demo/NDKDemo/app -B/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86
+  COMMAND = cd /Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86 && /Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/maodq/Project/demo/soundtouch/app -B/Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/x86
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,7 +56,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/soundtouch-jni.cpp.o: CXX_COMPILER
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/soundtouch-jni.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/soundtouch-jni.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/soundtouch-jni.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/AAFilter.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/AAFilter.cpp
@@ -64,7 +64,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/AAFilter.cpp.o: CXX_COMPILER
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/AAFilter.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/AAFilter.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/AAFilter.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIFOSampleBuffer.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/FIFOSampleBuffer.cpp
@@ -72,7 +72,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIFOSampleBuffer.cpp.o: CXX_
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIFOSampleBuffer.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/FIFOSampleBuffer.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/FIFOSampleBuffer.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIRFilter.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/FIRFilter.cpp
@@ -80,7 +80,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIRFilter.cpp.o: CXX_COMPILE
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/FIRFilter.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/FIRFilter.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/FIRFilter.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/cpu_detect_x86.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/cpu_detect_x86.cpp
@@ -88,7 +88,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/cpu_detect_x86.cpp.o: CXX_CO
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/cpu_detect_x86.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/cpu_detect_x86.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/cpu_detect_x86.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/sse_optimized.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/sse_optimized.cpp
@@ -96,7 +96,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/sse_optimized.cpp.o: CXX_COM
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/sse_optimized.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/sse_optimized.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/sse_optimized.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/WavFile.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/WavFile.cpp
@@ -104,7 +104,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/WavFile.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/WavFile.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/WavFile.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/WavFile.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/RateTransposer.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/RateTransposer.cpp
@@ -112,7 +112,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/RateTransposer.cpp.o: CXX_CO
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/RateTransposer.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/RateTransposer.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/RateTransposer.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/SoundTouch.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/SoundTouch.cpp
@@ -120,7 +120,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/SoundTouch.cpp.o: CXX_COMPIL
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/SoundTouch.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/SoundTouch.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/SoundTouch.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateCubic.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/InterpolateCubic.cpp
@@ -128,7 +128,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateCubic.cpp.o: CXX_
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateCubic.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateCubic.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/InterpolateCubic.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateLinear.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/InterpolateLinear.cpp
@@ -136,7 +136,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateLinear.cpp.o: CXX
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateLinear.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateLinear.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/InterpolateLinear.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateShannon.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/InterpolateShannon.cpp
@@ -144,7 +144,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateShannon.cpp.o: CX
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/InterpolateShannon.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateShannon.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/InterpolateShannon.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/TDStretch.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/TDStretch.cpp
@@ -152,7 +152,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/TDStretch.cpp.o: CXX_COMPILE
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/TDStretch.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/TDStretch.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/TDStretch.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/BPMDetect.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/BPMDetect.cpp
@@ -160,7 +160,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/BPMDetect.cpp.o: CXX_COMPILE
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/BPMDetect.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/BPMDetect.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/BPMDetect.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 build CMakeFiles/sound-touch.dir/src/main/cpp/touch/PeakFinder.cpp.o: CXX_COMPILER__sound-touch ../../../../src/main/cpp/touch/PeakFinder.cpp
@@ -168,7 +168,7 @@ build CMakeFiles/sound-touch.dir/src/main/cpp/touch/PeakFinder.cpp.o: CXX_COMPIL
   DEP_FILE = CMakeFiles/sound-touch.dir/src/main/cpp/touch/PeakFinder.cpp.o.d
   FLAGS = -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = /Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/PeakFinder.cpp
+  IN_ABS = /Users/maodq/Project/demo/soundtouch/app/src/main/cpp/touch/PeakFinder.cpp
   OBJECT_DIR = CMakeFiles/sound-touch.dir
   OBJECT_FILE_DIR = CMakeFiles/sound-touch.dir/src/main/cpp/touch
 

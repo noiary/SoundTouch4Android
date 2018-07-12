@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/Users/maodq/Project/demo/NDKDemo/app/CMakeLists.txt"
+    "/Users/maodq/Project/demo/soundtouch/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+    "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
   ],
   "libraries": {
     "sound-touch-Debug-arm64-v8a": {
       "artifactName": "sound-touch",
-      "buildCommand": "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/arm64-v8a --target sound-touch",
+      "buildCommand": "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/soundtouch/app/.externalNativeBuild/cmake/debug/arm64-v8a --target sound-touch",
       "abi": "arm64-v8a",
-      "output": "/Users/maodq/Project/demo/NDKDemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsound-touch.so"
+      "output": "/Users/maodq/Project/demo/soundtouch/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsound-touch.so"
     }
   }
 }
