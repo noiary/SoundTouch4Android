@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +18,6 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import java.io.File;
 
@@ -104,10 +105,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /// Play audio file
     protected void playWavFile(String fileName) {
         File file2play = new File(fileName);
-        Intent i = new Intent();
-        i.setAction(Intent.ACTION_VIEW);
-        i.setDataAndType(Uri.fromFile(file2play), "audio/wav");
-        startActivity(i);
+        Uri uri;
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            uri = FileProvider.getUriForFile(this, "com.maodq.soundtouch.fileprovider", file2play);
+            intent.setData(uri);
+            // 授予临时权限
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        } else {
+            uri = Uri.fromFile(file2play);
+            intent.setDataAndType(uri, "audio/wav");
+        }
+
+
+        startActivity(intent);
     }
 
 
