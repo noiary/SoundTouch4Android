@@ -1,13 +1,4 @@
-/////////////////////////////////////////////////////////////////////////////
-///
-/// Example Android Application/Activity that allows processing WAV 
-/// audio files with SoundTouch library
-///
-/// Copyright (c) Olli Parviainen
-///
-////////////////////////////////////////////////////////////////////////////////
-
-package net.surina;
+package com.maodq.soundtouch;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,20 +7,18 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.maodq.ndkdemo.R;
 
-import net.surina.soundtouch.SoundTouch;
+import com.maodq.ndkdemo.R;
 
 import java.io.File;
 
-public class ExampleActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
     TextView textViewConsole = null;
     EditText editSourceFile = null;
     EditText editOutputFile = null;
@@ -129,7 +118,7 @@ public class ExampleActivity extends Activity implements OnClickListener {
 
 
         /// Function that does the SoundTouch processing
-        public final long doSoundTouchProcessing(Parameters params) {
+        public final long doSoundTouchProcessing(ProcessTask.Parameters params) {
 
             SoundTouch st = new SoundTouch();
             st.setTempo(params.tempo);
@@ -158,7 +147,7 @@ public class ExampleActivity extends Activity implements OnClickListener {
 
         /// Overloaded function that get called by the system to perform the background processing
         @Override
-        protected Long doInBackground(Parameters... aparams) {
+        protected Long doInBackground(ProcessTask.Parameters... aparams) {
             return doSoundTouchProcessing(aparams[0]);
         }
 

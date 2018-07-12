@@ -153,7 +153,7 @@ static void _processFile(SoundTouch *pSoundTouch, const char *inFileName, const 
 
 
 
-extern "C" DLL_PUBLIC jstring Java_com_maodq_ndkdemo_SoundTouch_getVersionString(JNIEnv *env, jobject thiz)
+extern "C" DLL_PUBLIC jstring Java_com_maodq_soundtouch_SoundTouch_getVersionString(JNIEnv *env, jobject thiz)
 {
     const char *verStr;
 
@@ -179,41 +179,41 @@ extern "C" DLL_PUBLIC jstring Java_com_maodq_ndkdemo_SoundTouch_getVersionString
 
 
 
-extern "C" DLL_PUBLIC jlong Java_com_maodq_ndkdemo_SoundTouch_newInstance(JNIEnv *env, jobject thiz)
+extern "C" DLL_PUBLIC jlong Java_com_maodq_soundtouch_SoundTouch_newInstance(JNIEnv *env, jobject thiz)
 {
 	return (jlong)(new SoundTouch());
 }
 
 
-extern "C" DLL_PUBLIC void Java_com_maodq_ndkdemo_SoundTouch_deleteInstance(JNIEnv *env, jobject thiz, jlong handle)
+extern "C" DLL_PUBLIC void Java_com_maodq_soundtouch_SoundTouch_deleteInstance(JNIEnv *env, jobject thiz, jlong handle)
 {
 	SoundTouch *ptr = (SoundTouch*)handle;
 	delete ptr;
 }
 
 
-extern "C" DLL_PUBLIC void Java_com_maodq_ndkdemo_SoundTouch_setTempo(JNIEnv *env, jobject thiz, jlong handle, jfloat tempo)
+extern "C" DLL_PUBLIC void Java_com_maodq_soundtouch_SoundTouch_setTempo(JNIEnv *env, jobject thiz, jlong handle, jfloat tempo)
 {
 	SoundTouch *ptr = (SoundTouch*)handle;
 	ptr->setTempo(tempo);
 }
 
 
-extern "C" DLL_PUBLIC void Java_com_maodq_ndkdemo_SoundTouch_setPitchSemiTones(JNIEnv *env, jobject thiz, jlong handle, jfloat pitch)
+extern "C" DLL_PUBLIC void Java_com_maodq_soundtouch_SoundTouch_setPitchSemiTones(JNIEnv *env, jobject thiz, jlong handle, jfloat pitch)
 {
 	SoundTouch *ptr = (SoundTouch*)handle;
 	ptr->setPitchSemiTones(pitch);
 }
 
 
-extern "C" DLL_PUBLIC void Java_com_maodq_ndkdemo_SoundTouch_setSpeed(JNIEnv *env, jobject thiz, jlong handle, jfloat speed)
+extern "C" DLL_PUBLIC void Java_com_maodq_soundtouch_SoundTouch_setSpeed(JNIEnv *env, jobject thiz, jlong handle, jfloat speed)
 {
 	SoundTouch *ptr = (SoundTouch*)handle;
 	ptr->setRate(speed);
 }
 
 
-extern "C" DLL_PUBLIC jstring Java_com_maodq_ndkdemo_SoundTouch_getErrorString(JNIEnv *env, jobject thiz)
+extern "C" DLL_PUBLIC jstring Java_com_maodq_soundtouch_SoundTouch_getErrorString(JNIEnv *env, jobject thiz)
 {
 	jstring result = env->NewStringUTF(_errMsg.c_str());
 	_errMsg.clear();
@@ -222,7 +222,7 @@ extern "C" DLL_PUBLIC jstring Java_com_maodq_ndkdemo_SoundTouch_getErrorString(J
 }
 
 
-extern "C" DLL_PUBLIC int Java_com_maodq_ndkdemo_SoundTouch_processFile(JNIEnv *env, jobject thiz, jlong handle, jstring jinputFile, jstring joutputFile)
+extern "C" DLL_PUBLIC int Java_com_maodq_soundtouch_SoundTouch_processFile(JNIEnv *env, jobject thiz, jlong handle, jstring jinputFile, jstring joutputFile)
 {
 	SoundTouch *ptr = (SoundTouch*)handle;
 
