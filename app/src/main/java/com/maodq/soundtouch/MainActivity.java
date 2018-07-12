@@ -1,10 +1,14 @@
 package com.maodq.soundtouch;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,8 +17,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-import com.maodq.ndkdemo.R;
 
 import java.io.File;
 
@@ -88,7 +90,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             case R.id.buttonProcess:
                 // button "process" pushed
-                process();
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                    process();
+                } else {
+                    ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 100);
+                }
                 break;
         }
 
@@ -150,7 +156,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         protected Long doInBackground(ProcessTask.Parameters... aparams) {
             return doSoundTouchProcessing(aparams[0]);
         }
-
     }
 
 

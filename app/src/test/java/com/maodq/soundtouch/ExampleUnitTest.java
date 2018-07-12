@@ -1,4 +1,4 @@
-package com.maodq.ndkdemo;
+package com.maodq.soundtouch;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.maodq.ndkdemo;
+package com.maodq.soundtouch;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.maodq.ndkdemo", appContext.getPackageName());
+        assertEquals("com.maodq.soundtouch", appContext.getPackageName());
     }
 }
