@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/maodq/Project/demo/NDKDemo/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "sound-touch-Debug-armeabi-v7a": {
+      "artifactName": "sound-touch",
+      "buildCommand": "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target sound-touch",
+      "abi": "armeabi-v7a",
+      "output": "/Users/maodq/Project/demo/NDKDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsound-touch.so"
+    }
+  }
+}

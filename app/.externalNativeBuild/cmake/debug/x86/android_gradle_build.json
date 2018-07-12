@@ -1,0 +1,122 @@
+
+{
+	"buildFiles" : [ "/Users/maodq/Project/demo/NDKDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"sound-touch-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "sound-touch",
+			"buildCommand" : "/Users/maodq/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86 --target sound-touch",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/soundtouch-jni.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/AAFilter.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/FIFOSampleBuffer.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/FIRFilter.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/cpu_detect_x86.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/sse_optimized.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/WavFile.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/RateTransposer.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/SoundTouch.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateCubic.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateLinear.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/InterpolateShannon.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/TDStretch.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/BPMDetect.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/maodq/Library/Android/sdk/ndk-bundle/sysroot  -Dsound_touch_EXPORTS -I../../../../src/main/cpp/touch -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/maodq/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/maodq/Project/demo/NDKDemo/app/src/main/cpp/touch/PeakFinder.cpp",
+					"workingDirectory" : "/Users/maodq/Project/demo/NDKDemo/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/maodq/Project/demo/NDKDemo/app/build/intermediates/cmake/debug/obj/x86/libsound-touch.so",
+			"toolchain" : "4421853369652990907"
+		}
+	},
+	"toolchains" : 
+	{
+		"4421853369652990907" : 
+		{
+			"cCompilerExecutable" : "/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/maodq/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
